@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='style.css'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title> Student Dashboard</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">Student Dashboard</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">My Profile Status</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Analytics</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Results</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">feedback</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+				<a href="#" class="btn-download">
+					<i class='bx bxs-cloud-download' ></i>
+					<span class="text">Download PDF</span>
+				</a>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>1020</h3>
+						<p>New students</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>2834</h3>
+						<p>Visitors</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>2543</h3>
+						<p>Total Students</p>
+					</span>
+				</li>
+                <li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>7280</h3>
+						<p>General catgorie Students</p>
+					</span>
+				</li>
+                <li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>1900</h3>
+						<p>OBC catgorie Students</p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Recent Admitted Students</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>User</th>
+								<th>Date Student</th>
+								<th>Status</th>
+                                <th> Time</th>
+                                <th> Percentage</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									
+									<p>Sadiya Bagwan</p>
+								</td>
+								<td>09-07-2023</td>
+								<td><span class="status completed">Completed</span></td>
+                                <td>09:20 pm</td>
+                                <td>83.50%</td>
+							</tr>
+                    
+
+							<tr>
+								<td>
+									
+									<p>Mariya Bagwan</p>
+								</td>
+								<td>08-04-2023</td>
+								<td><span class="status pending">Pending</span></td>
+                                <td>12:00 am</td>
+                                <td>79.20%</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>Naaz Khan</p>
+								</td>
+								<td>07-11-2023</td>
+                                
+                                
+
+								<td><span class="status pending">Process</span></td>
+                                <td>06:00 pm</td>
+                                <td>69.54%</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>Jisha shaikh</p>
+								</td>
+								<td>01-10-2023</td>
+								<td><span class="status pending">Pending</span></td>
+                                <td>4:00 am</td>
+								<td>90.54%</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>ishu Khan</p>
+								</td>
+								<td>07-7-2023</td>
+								<td><span class="status completed">Completed</span></td>
+                                <td>6:30 pm </td>
+								<td>80.00%</td>
+							</tr>
+                            <tr>
+								<td>
+									
+									<p>fakhir piya</p>
+								</td>
+								<td>09-7-2023</td>
+								<td><span class="status pending">pending</span></td>
+                                <td>09:40 am</td>
+								<td>50.54%</td>
+							</tr>
+                            <tr>
+								<td>
+									
+									<p>anni mustafa</p>
+								</td>
+								<td>12-7-2023</td>
+								<td><span class="status completed">Completed</span></td>
+                                <td>07:00 am</td>
+								<td>79.5</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>shiza mick</p>
+								</td>
+								<td>12-12-2023</td>
+								<td><span class="status completed">Completed</span></td>
+                                <td>8:00 am</td>
+								<td>70%</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>neha safi</p>
+								</td>
+								<td>6-8-2023</td>
+								<td><span class="status process">Completed</span></td>
+                                <td>10:00 pm</td>
+								<td>45%</td>
+							</tr>
+							<tr>
+								<td>
+									
+									<p>shifa faiz</p>
+								</td>
+								<td>5-8-2023</td>
+								<td><span class="status completed">Completed</span></td>
+                                <td>08:00 am</td>
+								<td>56%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="javascript.js"></script>
+</body>
+</html>
